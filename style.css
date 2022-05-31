@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* INICIA EL NAV */
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    clear: both;
+    display: table;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 150px;
+    float: left;
+    padding-left: 30px;
+}
+
+nav{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 50px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(165, 42, 42);
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* SECCION INICIO */
+
+.portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/patitas.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+}
+
+.portada h1{
+   font-family: 'Rubik', sans-serif;
+   font-size: 60px;
+   text-align: center;
+   color: whitesmoke;
+   
+}
+
+
+.quienesSomos{
+    text-align: center;
+    margin: 50px 30px;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* CARDS */
+
+.cards{
+ width: 100%;
+ max-width: 1200px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: auto;
+
+}
+
+.cards .card{
+    width: 330px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 0.25s ease;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 50%;
+    margin: 15px 0px;
+}
+
+.card h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.card p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+ 
+}
+
+.card a:hover{
+    color: brown;
+}
+    
+
+/* SECCION TRANSITO */
+
+#transito_section{
+    background-image: url(img/fondo-transito.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.transito{
+    padding-top: 200px;
+    margin-top: 2px;
+}
+
+.transito h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color:rgb(60, 26, 12)
+}
+
+.queEs{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 80px;
+   
+}
+
+.queEs p{
+    margin-right: 100px;
+}
+
+
+.quenecesito{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 80px;
+    margin-left: 70px;
+    align-items: center;
+    
+}
+
+.quenecesito h2{
+    margin-right: 80px;
+    margin-left: -20px;
+   
+}
+
+.quenecesito p{
+    padding-left: 150px;
+    
+}
+
+.quierotransitar{
+   display: flex;
+   justify-content: center;
+}
+
+.quierotransitar button{
+    background-color: rgb(243, 232, 218);
+    border:solid;
+    border-color: rgb(52, 10, 10);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.quierotransitar button a{
+    text-decoration: none;
+    color: rgb(52, 10, 10);
+}
+
+
+/* SECCION ADOPCIONES */
+
+.adopcioncabecera{
+    display: flex;
+    background-image: url(img/adoptar.jpg);
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.adopcioncabecera h1{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+#pasos{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+.pasoshuella p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 44%;
+    margin-top: -55px;
+    color: white;
+
+}
+
+#textopasos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parrafo{
+    padding: 0 42px;
+    margin-bottom: 80px;
+}
+
+.parrafo p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(52, 10, 10);;
+}
+
+.animate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animate h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    color: rgb(52, 10, 10);
+    text-decoration: underline overline;
+}
+
+.animate button{
+    background-color: rgb(243, 232, 218);
+    border:solid;
+    border-color: rgb(52, 10, 10);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.animate button a{
+    text-decoration: none;
+    color: rgb(52, 10, 10);
+}
+
+/* SECCION DONACIONES */
+
+.cabeceradonar{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/gato.jpg);
+    background-size: cover;
+    background-position: 120px;
+    height: 800px;
+    margin-top: 4px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.cabeceradonar h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: rgb(52, 10, 10);
+    text-decoration: underline;
+}
+
+.cabeceradonar p{
+    padding-right: 50%;
+}
+
+.ayudar h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: rgb(52, 10, 10);
+}
+
+#donaciones{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    margin-left: 50px;  
+}
+
+.clasedonaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+}
+
+.clasedonaciones img{
+    width: 50%;
+    
+}
+
+/* SECCION CONTACTO */
+
+.formulario{
+    width: 600px;
+    background-color: rgb(200, 180, 167);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(52, 10, 10);
+    text-align: center;
+}
+
+.casillero{
+    width: 100%;
+    background-color: rgb(244, 226, 213);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(137, 124, 101);
+    font-size: 16px;
+}
+
+.boton{
+    width: 80%;
+    background-color: rgb(41, 6, 6);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    
+    
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(39, 39, 39);
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_content h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.footer_content p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px 30px 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a:hover{
+    color: brown;
+}
