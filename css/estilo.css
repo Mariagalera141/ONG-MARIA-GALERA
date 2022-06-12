@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  clear: both;
+  display: table;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+  header .menu {
+    width: 100%;
+    margin: 0 auto; }
+    header .menu .logo {
+      width: 150px;
+      float: left;
+      padding-left: 10px; }
+    header .menu nav {
+      float: right;
+      margin-right: 50px; }
+      header .menu nav ul li {
+        list-style: none;
+        margin-left: 75px;
+        float: left;
+        padding: 50px 0px; }
+        header .menu nav ul li a {
+          text-decoration: none;
+          color: brown;
+          font-weight: bold;
+          font-family: 'Rubik', sans-serif; }
+
+.portada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(/img/patitas.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+  .portada h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke; }
+
+.quienesSomos {
+  text-align: center;
+  margin: 50px 30px; }
+  .quienesSomos h2 {
+    font: 40px/"Rubik", sans-serif;
+    text-align: center;
+    padding-bottom: 30px; }
+  .quienesSomos p {
+    font: 18px/"Roboto", sans-serif;
+    font-weight: 100; }
+  .quienesSomos .img-chicas {
+    width: 600px; }
+
+.cards {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 80px; }
+  .cards .card {
+    width: 350px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #aa7d4a;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 0.25s ease;
+    text-align: center;
+    align-items: center;
+    padding: 20px; }
+    .cards .card:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+      transform: translateY(-3%); }
+    .cards .card img {
+      width: 50%;
+      margin: 15px 0px; }
+    .cards .card h3 {
+      font-family: 'Rubik', sans-serif;
+      font-size: 20px;
+      color: white; }
+    .cards .card p {
+      font: 18px/"Roboto", sans-serif;
+      padding: 20px 10px;
+      color: white; }
+    .cards .card a {
+      text-decoration: none;
+      font: 18px/"Roboto", sans-serif;
+      color: white; }
+      .cards .card a:hover {
+        color: brown; }
+
+footer {
+  background-color: #272727;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  color: white; }
+  footer .footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+    footer .footer_content h3 {
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize; }
+    footer .footer_content p {
+      margin: 10px auto;
+      line-height: 28px;
+      font-size: 15px; }
+  footer .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px 30px 0; }
+    footer .socials li {
+      margin: 0 10px; }
+    footer .socials a {
+      text-decoration: none;
+      color: white; }
+      footer .socials a:hover {
+        color: brown; }

@@ -1,0 +1,38 @@
+.portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/img/patitas.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    
+    h1{
+        font-family: 'Rubik', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        color: whitesmoke; 
+     }
+}
+
+.quienesSomos{
+    text-align: center;
+    margin: 50px 30px;
+    h2{
+        font: $subtitulo;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    p{
+        font: $texto;
+        font-weight: 100;
+    }
+    .img-chicas{
+        width: 600px;
+    }
+}
+
+
+
+
