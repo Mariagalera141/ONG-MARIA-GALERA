@@ -30,6 +30,7 @@ header {
           font-weight: bold;
           font-family: 'Rubik', sans-serif; }
 
+/* SECCION QUIENES SOMOS */
 .portada {
   display: flex;
   align-items: center;
@@ -58,6 +59,7 @@ header {
   .quienesSomos .img-chicas {
     width: 600px; }
 
+/* CARDS */
 .cards {
   width: 100%;
   max-width: 1400px;
@@ -99,6 +101,7 @@ header {
       .cards .card a:hover {
         color: brown; }
 
+/* FOOTER */
 footer {
   background-color: #272727;
   height: auto;
