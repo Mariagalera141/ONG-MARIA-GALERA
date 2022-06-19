@@ -285,3 +285,37 @@ footer {
     margin-bottom: 60px; }
     .donaciones .tipo_donaciones img {
       width: 50%; }
+
+/* SECCION CONTACTO */
+.formulario {
+  width: 600px;
+  background-color: #c8b4a7;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif; }
+  .formulario h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #340a0a;
+    text-align: center; }
+  .formulario .casillero {
+    width: 100%;
+    background-color: #f4e2d5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #897c65;
+    font-size: 16px; }
+  .formulario .boton {
+    width: 80%;
+    background-color: #290606;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif; }
