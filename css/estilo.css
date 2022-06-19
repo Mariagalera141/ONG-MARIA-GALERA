@@ -3,32 +3,14 @@
   margin: 0;
   box-sizing: border-box; }
 
-header {
-  background-color: #ffffff;
-  width: 100%;
-  clear: both;
-  display: table;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
-  header .menu {
-    width: 100%;
-    margin: 0 auto; }
-    header .menu .logo {
-      width: 130px;
-      float: left;
-      padding-left: 10px; }
-    header .menu nav {
-      float: right;
-      margin-right: 50px; }
-      header .menu nav ul li {
-        list-style: none;
-        margin-left: 75px;
-        float: left;
-        padding: 50px 0px; }
-        header .menu nav ul li a {
-          text-decoration: none;
-          color: brown;
-          font-weight: bold;
-          font-family: 'Rubik', sans-serif; }
+/* HEADER */
+.logo {
+  width: 140px;
+  float: left; }
+
+.nav-link {
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif; }
 
 /* SECCION QUIENES SOMOS */
 .portada {
