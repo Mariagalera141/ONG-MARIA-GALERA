@@ -35,6 +35,54 @@
 }
 
 /* CARDS */
+$bg1: #44291e;
+$bg2: #e3ab76;
+$bg3: #8b6c4f;
+$color1: #f8e3cb;
+$color2: #622708;
+$color3: white;
+
+
+@mixin cards ($bg, $color) {
+    width: 350px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: $bg;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 0.25s ease;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    &:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3%);
+    }
+    img{
+    width: 50%;
+    margin: 15px 0px;
+    }
+    h3{
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        color: $color;
+    }
+    p{
+        font: $texto;
+        padding: 20px 10px;
+        color: $color;
+    }
+    a{
+        text-decoration: none;
+        font: $texto;
+        color: $color;
+        &:hover{
+            color: brown;
+        }
+    }
+}
+
 .cards{
     width: 100%;
     max-width: 1400px;
@@ -43,43 +91,13 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 80px;
-    .card{
-        width: 350px;
-        margin: 20px;
-        border-radius: 8px;
-        overflow: hidden;
-        background: $bg2;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: default;
-        transition: all 0.25s ease;
-        text-align: center;
-        align-items: center;
-        padding: 20px;
-        &:hover{
-            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-            transform: translateY(-3%);
-        }
-        img{
-        width: 50%;
-        margin: 15px 0px;
-        }
-        h3{
-            font-family: 'Rubik', sans-serif;
-            font-size: 20px;
-            color: white;
-        }
-        p{
-            font: $texto;
-            padding: 20px 10px;
-            color: white;
-        }
-        a{
-            text-decoration: none;
-            font: $texto;
-            color: white;
-            &:hover{
-                color: brown;
-            }
-        }
-     }
+    .card1{
+        @include cards($bg1, $color1)
+    }
+    .card2{
+        @include cards($bg2, $color2)
+    }
+    .card3{
+        @include cards($bg3, $color3)
+    }
    }
