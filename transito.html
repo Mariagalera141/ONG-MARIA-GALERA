@@ -18,6 +18,7 @@
       <!-- CSS only -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -48,12 +49,12 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, repudiandae. Nisi ipsam explicabo obcaecati beatae nulla debitis iure animi iste nam aliquam, itaque commodi aut quia, earum hic doloremque sequi!
             </p>
             </div>
-            <div class="icono-hogar"><img src="/img/hogar.png" alt="hogar de transito"></div>
+            <div class="icono-hogar" data-aos="fade-right" data-aos-duration="3000" ><img src="/img/hogar.png" alt="hogar de transito"></div>
             <div class="texto-necesito">
             <h2>¿Qué necesito para serlo?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est quo repudiandae beatae natus tempora praesentium dolorem eius ut, explicabo optio fugit nam animi quae, unde assumenda porro dicta laborum?</p>
             </div>
-            <div class="icono-necesito"><img src="/img/pregunta.png" alt=""></div>
+            <div class="icono-necesito" data-aos="fade-left" data-aos-duration="3000"><img src="/img/pregunta.png" alt=""></div>
             <div class="button-transito">
                 <button class="btn-transito"> <a href="#"> QUIERO SER HOGAR DE TRÁNSITO</a></button>
             </div>
@@ -76,6 +77,10 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-crossorigin="anonymous"></script>  
+crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
