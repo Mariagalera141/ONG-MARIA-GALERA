@@ -1,60 +1,29 @@
 /* TRANSITO */
 .transito_section{
-    background-image: url(/img/fondo-transito.jpg);
-    background-size: cover;
-    width: 100%;
     .transito{
-        padding-top: 200px;
-        margin-top: 2px;
-        h1{
-            font-family: 'Rubik', sans-serif;
-            font-size: 60px;
-            text-align: center;
-            color:rgb(60, 26, 12)
-        }
+        text-align: center;
+        padding: 80px 0px;
     }
-    .queEs{
-        display: flex;
-        padding-top: 60px;
-        justify-content: center;
-        align-items: center;
-        margin-left: 180px;
-        margin-right: 80px; 
-        p{
-            margin-right: 100px;
-        }   
-    }
-    .quenecesito{
-        display: flex;
-        flex-direction: row-reverse;
-        margin-right: 80px;
-        margin-left: 70px;
-        align-items: center;
-        h2{
-            margin-right: 80px;
-            margin-left: -20px;
-        }
-        p{
-            padding-left: 150px;
-            padding-right: 60px;  
-        }
-    }
-    .quierotransitar{
-        display: flex;
-        justify-content: center;
-        button{
-            background-color: rgb(243, 232, 218);
-            border:solid;
-            border-color: rgb(52, 10, 10);
-            padding: 10px;
-            border-radius: 20px;
-            font-family: 'Rubik', sans-serif;
-            font-size: 22px;
-            margin-bottom: 80px;
-            a{
-                text-decoration: none;
-                color: rgb(52, 10, 10);
-            }
-        }
-     }
 }
+.container_transito {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 300px 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "icono-hogar texto-hogar"
+      "texto-necesito icono-necesito"
+      "button-transito button-transito";
+  }
+  
+  .texto-hogar { grid-area: texto-hogar; }
+  
+  .icono-hogar { grid-area: icono-hogar; }
+  
+  .texto-necesito { grid-area: texto-necesito; }
+  
+  .icono-necesito { grid-area: icono-necesito; }
+  
+  .button-transito { grid-area: button-transito; }
+  

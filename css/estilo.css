@@ -5,6 +5,8 @@
 
 .navbar {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2); }
+  .navbar .container-fluid {
+    width: 90%; }
 
 .logo {
   width: 140px;
@@ -57,7 +59,7 @@
     margin: 20px;
     border-radius: 8px;
     overflow: hidden;
-    background: #44291e;
+    background: #5d3a2f;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 0.25s ease;
@@ -73,23 +75,23 @@
     .cards .card1 h3 {
       font-family: 'Rubik', sans-serif;
       font-size: 20px;
-      color: #f8e3cb; }
+      color: white; }
     .cards .card1 p {
       font: 18px/"Roboto", sans-serif;
       padding: 20px 10px;
-      color: #f8e3cb; }
+      color: white; }
     .cards .card1 a {
       text-decoration: none;
       font: 18px/"Roboto", sans-serif;
-      color: #f8e3cb; }
+      color: white; }
       .cards .card1 a:hover {
-        color: brown; }
+        color: #a54d2a; }
   .cards .card2 {
     width: 350px;
     margin: 20px;
     border-radius: 8px;
     overflow: hidden;
-    background: #d8ac81;
+    background: #b17d4f;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 0.25s ease;
@@ -105,23 +107,23 @@
     .cards .card2 h3 {
       font-family: 'Rubik', sans-serif;
       font-size: 20px;
-      color: #622708; }
+      color: white; }
     .cards .card2 p {
       font: 18px/"Roboto", sans-serif;
       padding: 20px 10px;
-      color: #622708; }
+      color: white; }
     .cards .card2 a {
       text-decoration: none;
       font: 18px/"Roboto", sans-serif;
-      color: #622708; }
+      color: white; }
       .cards .card2 a:hover {
-        color: brown; }
+        color: #a54d2a; }
   .cards .card3 {
     width: 350px;
     margin: 20px;
     border-radius: 8px;
     overflow: hidden;
-    background: #8b6c4f;
+    background: #8a6451;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 0.25s ease;
@@ -147,57 +149,35 @@
       font: 18px/"Roboto", sans-serif;
       color: white; }
       .cards .card3 a:hover {
-        color: brown; }
+        color: #a54d2a; }
 
 /* TRANSITO */
-.transito_section {
-  background-image: url(/img/fondo-transito.jpg);
-  background-size: cover;
-  width: 100%; }
-  .transito_section .transito {
-    padding-top: 200px;
-    margin-top: 2px; }
-    .transito_section .transito h1 {
-      font-family: 'Rubik', sans-serif;
-      font-size: 60px;
-      text-align: center;
-      color: #3c1a0c; }
-  .transito_section .queEs {
-    display: flex;
-    padding-top: 60px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 180px;
-    margin-right: 80px; }
-    .transito_section .queEs p {
-      margin-right: 100px; }
-  .transito_section .quenecesito {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 80px;
-    margin-left: 70px;
-    align-items: center; }
-    .transito_section .quenecesito h2 {
-      margin-right: 80px;
-      margin-left: -20px; }
-    .transito_section .quenecesito p {
-      padding-left: 150px;
-      padding-right: 60px; }
-  .transito_section .quierotransitar {
-    display: flex;
-    justify-content: center; }
-    .transito_section .quierotransitar button {
-      background-color: #f3e8da;
-      border: solid;
-      border-color: #340a0a;
-      padding: 10px;
-      border-radius: 20px;
-      font-family: 'Rubik', sans-serif;
-      font-size: 22px;
-      margin-bottom: 80px; }
-      .transito_section .quierotransitar button a {
-        text-decoration: none;
-        color: #340a0a; }
+.transito_section .transito {
+  text-align: center;
+  padding: 80px 0px; }
+
+.container_transito {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 300px 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "icono-hogar texto-hogar" "texto-necesito icono-necesito" "button-transito button-transito"; }
+
+.texto-hogar {
+  grid-area: texto-hogar; }
+
+.icono-hogar {
+  grid-area: icono-hogar; }
+
+.texto-necesito {
+  grid-area: texto-necesito; }
+
+.icono-necesito {
+  grid-area: icono-necesito; }
+
+.button-transito {
+  grid-area: button-transito; }
 
 /* SECCION ADOPCIONES */
 .adopcioncabecera {
