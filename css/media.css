@@ -99,6 +99,44 @@
     font-size: 18px;
     }
     /* Finaliza sección adopciones */
+    /* Inicia sección donaciones */
+    .cabeceradonar{
+      height: 300px;
+      padding: 0px;
+      background-image: url(/img/gato-mob.jpg);
+      background-size: cover;
+      background-position: 1px;
+    }
+    .cabeceradonar h1{
+      font-size: 30px;
+      margin: 120px auto 150px 50px;
+    }
+    .cabeceradonar p{
+      padding: 20px;
+      text-align: center;
+    }
+    .ayudar{
+      margin-top: 500px;
+    }
+    .ayudar h2{
+      font-size: 30px;
+    }
+    .donaciones{
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+    }
+    .donaciones .tipo_donaciones h3{
+      font-family: 'rubik';
+      font-size: 22px;
+      color: black;
+    }
+    .donaciones .tipo_donaciones img{
+      width: 30%;
+    }
+
+
+    /* Finaliza sección donaciones */
     /* Inicia sección contacto */
     .formulario{
       width: auto;
