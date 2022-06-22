@@ -299,6 +299,24 @@
     .donaciones .tipo_donaciones img {
       width: 50%; }
 
+.button-donar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px; }
+  .button-donar .btn-transito {
+    background-color: #f3e8da;
+    border: solid;
+    border-color: #5d3a2f;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    margin-bottom: 80px;
+    margin-top: 30px; }
+    .button-donar .btn-transito a {
+      text-decoration: none;
+      color: #5d3a2f; }
+
 /* SECCION CONTACTO */
 .formulario {
   width: 600px;

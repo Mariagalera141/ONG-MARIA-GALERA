@@ -47,5 +47,25 @@
     }
 }
 
+.button-donar{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    .btn-transito{
+      background-color: rgb(243, 232, 218);
+      border:solid;
+      border-color: #5d3a2f;
+      padding: 10px;
+      border-radius: 20px;
+      font-family: 'Rubik', sans-serif;
+      font-size: 22px;
+      margin-bottom: 80px;
+      margin-top: 30px;
+      a{
+          text-decoration: none;
+          color:#5d3a2f;
+      }
+    }
+}
 
 
