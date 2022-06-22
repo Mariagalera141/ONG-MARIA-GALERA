@@ -158,11 +158,38 @@
 
 .container_transito {
   display: grid;
+  padding: 0px 100px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px 300px 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "icono-hogar texto-hogar" "texto-necesito icono-necesito" "button-transito button-transito"; }
+  grid-template-areas: "icono-hogar texto-hogar" "texto-necesito icono-necesito" "button-transito button-transito";
+  align-items: center; }
+  .container_transito .texto-hogar {
+    text-align: center; }
+  .container_transito .texto-necesito {
+    text-align: center;
+    padding-top: 120px; }
+  .container_transito .icono-hogar, .container_transito .icono-necesito {
+    margin-left: 100px;
+    padding-top: 60px; }
+  .container_transito .button-transito {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px; }
+    .container_transito .button-transito .btn-transito {
+      background-color: #f3e8da;
+      border: solid;
+      border-color: #5d3a2f;
+      padding: 10px;
+      border-radius: 20px;
+      font-family: 'Rubik', sans-serif;
+      font-size: 22px;
+      margin-bottom: 80px;
+      margin-top: 60px; }
+      .container_transito .button-transito .btn-transito a {
+        text-decoration: none;
+        color: #5d3a2f; }
 
 .texto-hogar {
   grid-area: texto-hogar; }
@@ -227,7 +254,7 @@
   .animate button {
     background-color: #f3e8da;
     border: solid;
-    border-color: #340a0a;
+    border-color: #5d3a2f;
     padding: 10px;
     border-radius: 20px;
     font-family: 'Rubik', sans-serif;
@@ -236,7 +263,7 @@
     margin-top: 60px; }
     .animate button a {
       text-decoration: none;
-      color: #340a0a; }
+      color: #5d3a2f; }
 
 /* SECCION DONACIONES */
 .cabeceradonar {
