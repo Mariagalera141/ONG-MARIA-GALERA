@@ -3,6 +3,8 @@ $color2: #b17d4f;
 $color3: #5d3a2f;
 $color-text1: #5d3a2f;
 $color-text2: white;
+$texto: 18px/'Roboto', sans-serif;
+$subtitulo: 40px/'Rubik', sans-serif;
 
 @mixin cards ($color, $color-text) {
     width: 350px;

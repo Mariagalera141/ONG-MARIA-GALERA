@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box; }
 
+/* HEADER */
 .navbar {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2); }
   .navbar .container-fluid {
@@ -28,7 +29,7 @@
   height: 500px; }
   .portada h1 {
     font-family: 'Rubik', sans-serif;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     color: whitesmoke; }
 
@@ -161,22 +162,18 @@
   padding: 0px 100px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px 300px 1fr;
-  gap: 0px 0px;
+  row-gap: 60px;
   grid-auto-flow: row;
   grid-template-areas: "icono-hogar texto-hogar" "texto-necesito icono-necesito" "button-transito button-transito";
   align-items: center; }
-  .container_transito .texto-hogar {
+  .container_transito .texto-hogar, .container_transito .texto-necesito {
     text-align: center; }
-  .container_transito .texto-necesito {
-    text-align: center;
-    padding-top: 120px; }
   .container_transito .icono-hogar, .container_transito .icono-necesito {
-    margin-left: 100px;
-    padding-top: 60px; }
+    margin-left: 100px; }
   .container_transito .button-transito {
     display: flex;
     justify-content: center;
-    padding: 120px 0px; }
+    padding: 10px 0px; }
     .container_transito .button-transito .btn-transito {
       background-color: #f3e8da;
       border: solid;
@@ -219,28 +216,23 @@
     color: white;
     font-size: 40px; }
 
-.pasos {
-  display: flex;
-  justify-content: space-around;
-  padding: 80px 0; }
-  .pasos .pasoshuella p {
-    font-family: 'Rubik', sans-serif;
-    font-size: 32px;
-    font-weight: 500;
-    margin-left: 44%;
-    margin-top: -55px;
-    color: white; }
-
-.textopasos {
-  display: flex;
-  justify-content: space-around; }
-  .textopasos .parrafo {
-    padding: 0 42px;
-    margin-bottom: 80px; }
-    .textopasos .parrafo p {
-      font-family: 'Roboto', sans-serif;
-      text-align: center;
-      color: #340a0a; }
+.container_pasos {
+  margin: 90px 0px; 
+}
+  .container_pasos .patita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 60px; }
+    .container_pasos .patita .numero {
+      margin-top: -60px;
+      margin-bottom: 60px;
+      color: white;
+      font-size: 30px; }
+    .container_pasos .patita .pasos_texto {
+      color: #5d3a2f;
+      font: 18px/"Roboto", sans-serif; }
 
 .animate {
   display: flex;
