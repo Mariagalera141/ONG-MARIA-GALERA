@@ -8,11 +8,11 @@
     margin-bottom: 100px;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
-    h3{
+    h1{
         font-family: 'Rubik', sans-serif;
         font-size: 30px;
         margin-bottom: 20px;
-        color: rgb(52, 10, 10);
+        color: $color-text1;
         text-align: center;
     }
     .casillero{
@@ -21,12 +21,12 @@
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid rgb(137, 124, 101);
+        border: 1px solid $color1;
         font-size: 16px;
     }
     .boton{
         width: 80%;
-        background-color: rgb(41, 6, 6);
+        background-color: $color1;
         border: none;
         padding: 12px;
         color: white;

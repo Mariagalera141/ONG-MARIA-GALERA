@@ -217,8 +217,7 @@
     font-size: 40px; }
 
 .container_pasos {
-  margin: 90px 0px; 
-}
+  margin: 90px 0px; }
   .container_pasos .patita {
     display: flex;
     flex-direction: column;
@@ -310,11 +309,11 @@
   margin-bottom: 100px;
   border-radius: 4px;
   font-family: 'Roboto', sans-serif; }
-  .formulario h3 {
+  .formulario h1 {
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #340a0a;
+    color: #5d3a2f;
     text-align: center; }
   .formulario .casillero {
     width: 100%;
@@ -322,11 +321,11 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #897c65;
+    border: 1px solid #8a6451;
     font-size: 16px; }
   .formulario .boton {
     width: 80%;
-    background-color: #290606;
+    background-color: #8a6451;
     border: none;
     padding: 12px;
     color: white;

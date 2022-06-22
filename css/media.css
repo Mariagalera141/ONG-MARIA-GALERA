@@ -98,7 +98,18 @@
   .btn-adoptar a{
     font-size: 18px;
     }
-
     /* Finaliza sección adopciones */
+    /* Inicia sección contacto */
+    .formulario{
+      width: auto;
+      margin: 30px 12px;
+    }
+    .formulario h1{
+      font-size: 24px;
+    }
+    .formulario .casillero{
+      padding: 8px;
+    }
+    /* Finaliza sección contacto */
 
   }
