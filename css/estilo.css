@@ -149,41 +149,6 @@
       .cards .card3 a:hover {
         color: brown; }
 
-/* FOOTER */
-footer {
-  background-color: #272727;
-  height: auto;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 20px;
-  color: white; }
-  footer .footer_content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; }
-    footer .footer_content h3 {
-      font-size: 20px;
-      font-weight: 400;
-      text-transform: capitalize; }
-    footer .footer_content p {
-      margin: 10px auto;
-      line-height: 28px;
-      font-size: 15px; }
-  footer .socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 16px 0px 30px 0; }
-    footer .socials li {
-      margin: 0 10px; }
-    footer .socials a {
-      text-decoration: none;
-      color: white; }
-      footer .socials a:hover {
-        color: brown; }
-
 /* TRANSITO */
 .transito_section {
   background-image: url(/img/fondo-transito.jpg);
@@ -368,3 +333,28 @@ footer {
     margin: 16px 0;
     font-size: 16px;
     font-family: 'Rubik', sans-serif; }
+
+/* FOOTER */
+footer {
+  background-color: #272727;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  color: white; }
+  footer .footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    footer .footer_content h3 {
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize; }
+  footer .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px 30px 0; }
+    footer .socials img {
+      width: 50%; }
