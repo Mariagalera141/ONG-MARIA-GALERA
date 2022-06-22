@@ -12,8 +12,6 @@
         font-size: 40px;
     }
 }
-
-
 .pasos{
     display: flex;
     justify-content: space-around;
@@ -28,8 +26,6 @@
     
     }
 }
-
-
 .textopasos{
     display: flex;
     justify-content: space-around;
@@ -43,18 +39,19 @@
         }
     }
 }
-
 .animate{
     display: flex;
     flex-direction: column;
     align-items: center;
     h3{
         font-family: 'Rubik', sans-serif;
-        font-size: 50px;
-        color: rgb(52, 10, 10);
-        text-decoration: underline overline;
+        font-size: 40px;
+        color: $color-text1;
     }
-    button{
+    .carousel-inner{
+        padding: 80px;
+    }
+    .btn-adoptar{
         background-color: rgb(243, 232, 218);
         border:solid;
         border-color: #5d3a2f;
@@ -63,7 +60,7 @@
         font-family: 'Rubik', sans-serif;
         font-size: 22px;
         margin-bottom: 80px;
-        margin-top: 60px;
+        margin-top: 30px;
         a{
             text-decoration: none;
             color:#5d3a2f;

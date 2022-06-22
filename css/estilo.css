@@ -248,10 +248,11 @@
   align-items: center; }
   .animate h3 {
     font-family: 'Rubik', sans-serif;
-    font-size: 50px;
-    color: #340a0a;
-    text-decoration: underline overline; }
-  .animate button {
+    font-size: 40px;
+    color: #5d3a2f; }
+  .animate .carousel-inner {
+    padding: 80px; }
+  .animate .btn-adoptar {
     background-color: #f3e8da;
     border: solid;
     border-color: #5d3a2f;
@@ -260,8 +261,8 @@
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
     margin-bottom: 80px;
-    margin-top: 60px; }
-    .animate button a {
+    margin-top: 30px; }
+    .animate .btn-adoptar a {
       text-decoration: none;
       color: #5d3a2f; }
 
